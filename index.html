@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Калькулятор ios</title>
+    <link rel="stylesheet" href="./style/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <form name="form">
+                <input type="text" name="textview" readonly>
+            </form>
+        </div>
+        <div class="first">
+            <div class="clear" onclick="cleanAll()">
+                CA
+            </div>
+            <div class="clearAll" onclick="clean()">
+                C
+            </div>
+           
+            <div class="delenie" onclick="show('/')">
+                /
+            </div>
+        </div>
+        <div class="second">
+            <div class="seven" onclick="show('7')">
+                7
+            </div>
+            <div class="eight" onclick="show('8')">
+                8
+            </div>
+            <div class="nine" onclick="show('9')">
+                9
+            </div>
+            <div class="multiply" onclick="show('*')">
+                *
+            </div>
+        </div>
+        <div class="third">
+            <div class="four" onclick="show('4')">
+                4
+            </div>
+            <div class="five" onclick="show('5')">
+                5
+            </div>
+            <div class="six" onclick="show('6')">
+                6
+            </div>
+            <div class="minus" onclick="show('-')">
+                -
+            </div>
+        </div>
+        <div class="fourth">
+            <div class="one" onclick="show('1')">
+                1
+            </div>
+            <div class="two" onclick="show('2')">
+                2
+            </div>
+            <div class="three" onclick="show('3')">
+                3
+            </div>
+            <div class="plus" onclick="show('+')">
+                +
+            </div>
+        </div>
+        <div class="fifth">
+            <div class="zero" onclick="show('0')">
+                0
+            </div>
+            <div class="float" onclick="show('.')">
+                .
+            </div>
+            <div class="equal" onclick="result()">
+                =
+            </div>
+        </div>
+    </div>
+
+<script src="./script/script.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,80 @@
+*{
+    box-sizing: border-box;
+    user-select: none;
+}
+.header{
+    width: 50%;
+    height: 150px;
+    background-color:rgb(30, 31, 26);
+    color: #ffffff;
+    text-align: end;
+    font-size: 30px;
+    padding: 10px;
+}
+.first, .second, .third, .fourth, .fifth{
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    text-align: center;
+    color: #ffffff;
+    font-size: 25px;
+    cursor: pointer;
+    
+}
+.clear, .seven, .four, .one, .clearAll, .eight, .five , .two, .nine, .six , .three, .float{
+    width: 25%;
+    height: 50px;
+    background-color: rgb(136, 138, 130);
+    border-right: 1px solid rgb(30, 31, 26);
+    border-bottom: 1px solid rgb(48, 49, 44);
+    /*padding: 10px 5px;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.clear:hover, .seven:hover, .four:hover, .one:hover, .clearAll:hover, .eight:hover, .five:hover , .two:hover,
+.nine:hover, .six:hover, .three:hover, .float:hover, .zero:hover{
+    background-color: rgb(92, 92, 85);
+}
+
+.delenie, .multiply, .minus, .plus, .equal{
+    width: 25%;
+    height: 50px;
+    background-color: rgb(247, 74, 21);
+    border-bottom: 1px solid rgb(30, 31, 26);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.delenie:hover, .multiply:hover, .minus:hover, .plus:hover, .equal:hover{
+    background-color: rgb(248, 34, 6);
+}
+
+.zero{
+    width: 50%;
+    height: 50px;
+    background-color: rgb(136, 138, 130);
+    border-right: 1px solid rgb(30, 31, 26); 
+    border-bottom: 1px solid rgb(30, 31, 26);  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+form{
+    max-width: 100%;
+}
+input{
+    background-color: rgb(30, 31, 26);
+    width: 100%;
+    height: 130px;
+    outline: none;
+    text-align: right;
+    border: none;
+    font-size: 40px;
+    color: #ffffff;
+}
+.clear{
+    width: 50%;
+}
